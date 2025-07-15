@@ -9,5 +9,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 3000
-      nodePort: 30080  # Define a NodePort (optional, Kubernetes will auto-assign one if not provided)
-  type: NodePort
+  type: LoadBalancer

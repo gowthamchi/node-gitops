@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: gowtham1198/node-app:v12
+          image: gowtham1198/node-app:v13
           ports:
             - containerPort: 3000
